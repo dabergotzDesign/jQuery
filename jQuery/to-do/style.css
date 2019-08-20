@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 0, 136);
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 4em;
+}
+
+#listInput {
+  padding: 8px;
+  margin: 16px 0 16px 8px;
+  font-size: 16px;
+  outline: none;
+  width: 50%;
+}
+
+.addBtn {
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  padding: 8px;
+  outline: none;
+  font-size: 16px;
+  border: 3px solid rgb(110, 110, 110);
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #ffff;
+  color: #1f1f1f;
+  border-color: rgb(170, 170, 170);
+  transition: 0.3s;
+}
+
+/* .taskPoint {
+  list-style: none;
+  color: white;
+  padding: 8px;
+  margin: 4px;
+} */
+
+ul {
+  margin: 4px;
+  border: 2px solid #1f1f1f;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+li {
+  list-style: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  background: #192549;
+  font-size: 24px;
+  text-align: left;
+  margin: 1% 1%;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+}
+
+#check {
+  margin-left: 24px;
+}
+
+.close {
+  color: whitesmoke;
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 10px;
+  transition: 0.3s;
+}

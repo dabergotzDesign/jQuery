@@ -1,21 +1,78 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="main.css" />
+  <head>
+    <title>jQuery Demo</title>
+  </head>
 
-<head>
-  <title>jQuery Demo</title>
-</head>
-
-<body>
-
+  <body>
     <p id="demo"></p>
 
     <button id="trigger">Click Me</button>
 
     <h3 id="greeting">Fantastic 14</h3>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <!-- Your JavaScript file (scripts.js) must be included below the jQuery library in the document or it will not work. -->
-</body>
+    <h2>Exercises</h2>
+    <h4>Double Events</h4>
+    <button id="welcome">Your cursor here</button>
 
+    <h4>Dropdown</h4>
+    <div>
+      <nav id="navBar">
+        <p id="nolan">Christoper Nolan's Movies</p>
+        <ul>
+          <li class="film1">
+            The Prestige
+            <ul class="actorsF1">
+              <li class="actor1">Hugh Jackman</li>
+              <li class="actor2">Christoper Bale</li>
+              <li class="actor3">David Bowie</li>
+            </ul>
+          </li>
+
+          <li class="film2">
+            Inception
+            <ul class="actorsF2">
+              <li class="actor1">Leonardo Di Caprio</li>
+              <li class="actor2">Ken Watanabe</li>
+              <li class="actor3">Tom Hardy</li>
+            </ul>
+          </li>
+
+          <li class="film3">
+            Dunkirk
+            <ul class="actorsF3">
+              <li class="actor1">Tom Hardy</li>
+              <li class="actor2">Cillian Murphy</li>
+              <li class="actor3">Harry Styles</li>
+            </ul>
+          </li>
+
+          <li class="film4">
+            Interstellar
+            <ul class="actorsF4">
+              <li class="actor1">Matthew McConaughy</li>
+              <li class="actor2">Anne Hathaway</li>
+              <li class="actor3">Michael Caine</li>
+            </ul>
+          </li>
+
+          <li class="film5">
+            Dark Knight
+            <ul class="actorsF5">
+              <li class="actor1">Micheal Caine</li>
+              <li class="actor2">Christoper Bale</li>
+              <li class="actor3">Heath Ledger</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <h4 id="todo">To-Do</h4>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="module" src="main.js"></script>
+    <!-- Your JavaScript file (scripts.js) must be included below the jQuery library in the document or it will not work. -->
+  </body>
 </html>
